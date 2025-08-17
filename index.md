@@ -1,13 +1,33 @@
 # Privacy Policy for Periodia
 
-**Last Updated:** January 25, 2025  
-**Effective Date:** January 25, 2025
+**Last Updated:** August 17, 2025  
+**Effective Date:** August 17, 2025  
+**Policy Version:** 3.1  
+**Document ID:** PERIODIA-PP-2025-003  
+**Content Rating:** Teen (12+) - Mixed Audience App  
+**COPPA Compliance Status:** ✅ Updated for 2025 COPPA Rule Amendments
 
 ## Introduction
 
 Periodia ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our menstrual cycle tracking and reproductive health mobile application (the "App").
 
-**Important:** Periodia is a menstrual cycle tracking application that helps women understand their cycle patterns, predict periods and fertility windows, and analyze their reproductive health data. This application is **NOT a medical device** and should not be used for diagnostic purposes or as a substitute for professional medical consultation.
+**Important:** Periodia is a menstrual cycle tracking application that helps individuals understand their cycle patterns, predict periods and fertility windows, and analyze their reproductive health data. This application is **NOT a medical device** and should not be used for diagnostic purposes or as a substitute for professional medical consultation.
+
+## Age Restrictions and Parental Guidance
+
+**IMPORTANT AGE REQUIREMENTS:**
+- **Minimum Age:** This app is rated Teen (12+) but recommended for ages 13+ due to reproductive health content
+- **Target Audience:** Primarily designed for individuals 18+ who menstruate
+- **Parental Guidance Required:** Users under 18 should use this app with parental guidance and supervision
+- **Under 13 Users:** Per COPPA requirements, we do not knowingly collect personal information from children under 13 without verified parental consent
+
+**For Parents and Guardians:**
+If your child is under 18 and uses this app, we recommend:
+- Reviewing this Privacy Policy together
+- Understanding the reproductive health education content
+- Supervising app usage and data entry
+- Consulting healthcare providers for medical guidance
+- Being aware that the app contains mature health education topics
 
 ## App Purpose and Functionality
 
@@ -40,11 +60,58 @@ Periodia provides the following services:
 
 ### 3. TECHNICAL AND USAGE DATA
 
-- **Device Information:** Device model, operating system, app version
-- **App Analytics:** Pages visited, time spent, feature usage (can be disabled in Profile settings)
-- **Push Notification Tokens:** For period and fertility notifications
-- **Error Logs and Crash Reports:** For app improvement and stability
-- **Activity Timestamps:** Last login, last data update
+- **Device Information:** Device model, operating system version, app version, device ID (anonymized)
+- **App Analytics:** Pages visited, time spent, feature usage, button clicks (can be disabled in Profile settings)
+- **Push Notification Tokens:** For period and fertility notifications delivery
+- **Error Logs and Crash Reports:** Stack traces, error messages for app improvement and stability
+- **Activity Timestamps:** Last login, last data update, session duration
+- **App Performance Data:** Loading times, memory usage, crash frequency
+
+### 4. ADVERTISING DATA (Production)
+
+- **Advertisement Identifiers:** Google Advertising ID for personalized ads (can be reset in device settings)
+- **Ad Interaction Data:** Clicks, views, ad performance metrics, conversion tracking
+- **Ad Preferences:** Based on app usage patterns (not health data)
+- **Ad Revenue Data:** Aggregated revenue metrics for app monetization
+- **User Engagement:** Time spent viewing ads, ad completion rates
+
+**Important:** We use Google AdMob with production advertising ID to display relevant ads. All advertising data is handled according to Google's advertising policies and does not include your sensitive health information.
+
+## COPPA Compliance (Children Under 13)
+
+**Enhanced Protection for Children Under 13:**
+
+In compliance with the Children's Online Privacy Protection Act (COPPA) and the 2025 Rule Amendments:
+
+### Data Collection from Children Under 13
+- **No Intentional Collection:** We do not intentionally collect personal information from children under 13
+- **Age Verification:** Users must confirm they are 13+ during registration
+- **Parental Consent Required:** If we discover a user under 13, we require verified parental consent before data collection
+
+### Parental Rights and Controls
+If your child under 13 is using this app, parents have the right to:
+- **Review:** Request to see what personal information we have collected
+- **Delete:** Request deletion of your child's personal information
+- **Refuse Further Collection:** Refuse to allow further collection of your child's information
+- **Consent Options:** Choose to consent to collection/use without consenting to disclosure to third parties
+
+### Third-Party Data Sharing (Under 13 Users)
+Per 2025 COPPA amendments, we provide parents the option to:
+- Consent to collection and use of child's information for app functionality
+- Separately consent (or refuse) to disclosure to third parties
+- Understand which categories of third parties may receive information
+
+### Contact for Parental Requests
+For any COPPA-related requests regarding children under 13:
+- **Email:** flasnelstudio@gmail.com
+- **Subject:** "COPPA Parental Request - [Child's Username]"
+- **Required:** Verification of parental identity
+- **Response Time:** Within 30 days of verified request
+
+### Data Retention for Children Under 13
+- We retain children's personal information only as long as necessary for the purpose for which it was collected
+- Parents can request deletion at any time
+- We implement enhanced security measures for any data from users under 13
 
 ## Third-Party Services Integration
 
@@ -52,15 +119,24 @@ Periodia integrates with Google/Firebase services to provide core functionality.
 
 ### Google Firebase Suite:
 - **Firebase Authentication:** User authentication via Google Sign-In
-- **Local SQLite Storage:** Secure local storage for all your menstrual cycle data
-- **Firebase Analytics:** App usage analysis (explicit consent required, can be disabled anytime)
+- **Local SQLite Storage:** Secure local storage for all your menstrual cycle data (no cloud upload)
+- **Firebase Analytics:** App usage analysis (explicit consent required during onboarding, can be disabled anytime)
 - **Firebase Cloud Messaging:** Period and fertility notification delivery
+- **Firebase Remote Config:** Feature configuration and app settings
 
 ### Google Services:
 - **Google Sign-In:** Secure authentication using your Google account
 - **Google Play Services:** Core Android services for app functionality
+- **Google Mobile Ads:** Advertisement delivery with production AdMob integration
 
-**Important:** Your health data is stored locally on your device and is NOT uploaded to any cloud servers. We do not share your personal health data with any third parties.
+### Data Processing Locations:
+Your sensitive health data remains exclusively on your device. However, the following data may be processed by Google services:
+- Authentication tokens (Google Sign-In)
+- Push notification tokens (Firebase Cloud Messaging)
+- Anonymous analytics data (only if consented, Firebase Analytics)
+- Advertisement data (Google AdMob production environment)
+
+**CRITICAL:** Your personal menstrual cycle data, symptoms, moods, and health information are stored ONLY on your device using SQLite database with Android secure storage. This data is never uploaded to any cloud servers or shared with third parties.
 
 **Google Privacy Policy:** https://policies.google.com/privacy
 
@@ -78,7 +154,16 @@ Periodia integrates with Google/Firebase services to provide core functionality.
 - Improve user experience and app functionality
 - Detect and prevent security threats
 
-**User Control:** During onboarding, you will be asked for explicit consent to enable analytics. You can change this preference anytime in **Profile → Tampilan & Privasi → Analytics & Peningkatan App** to stop usage data collection.
+### Advertising and Monetization:
+- Display relevant advertisements through Google AdMob
+- Measure ad performance and effectiveness
+- Generate revenue to support free app features
+- Provide personalized ad experiences (based on app usage, not health data)
+- Support sustainable app development and maintenance
+
+**User Control:** 
+- **Analytics:** During onboarding, you will be asked for explicit consent to enable analytics. You can change this preference anytime in **Profile → Tampilan & Privasi → Analytics & Peningkatan App** to stop usage data collection.
+- **Advertising:** Ads are displayed to support the free app. You can reset your advertising ID in device settings to limit ad personalization.
 
 ## Analytics Collection and Consent
 
@@ -123,27 +208,65 @@ During your first use of Periodia, after accepting the medical disclaimer, you w
 ## App Permissions
 
 ### Required Permissions:
-- **INTERNET:** Required for authentication and notifications only
+- **INTERNET:** Required for authentication, notifications, and ads delivery only
 - **ACCESS_NETWORK_STATE:** Network connectivity detection for authentication and notifications
-- **VIBRATE:** Notification feedback
+- **VIBRATE:** Notification feedback and alerts
 - **RECEIVE_BOOT_COMPLETED:** Maintain notifications after device restart
-- **POST_NOTIFICATIONS:** Display notifications (Android 13+)
+- **POST_NOTIFICATIONS:** Display notifications (Android 13+, user can deny)
+- **com.google.android.gms.permission.AD_ID:** Google Ads identifier for advertisement delivery
+- **com.android.vending.BILLING:** In-app purchases (future premium features)
 
 ### Explicitly Removed Permissions:
-For your privacy, we have deliberately removed potentially concerning permissions:
-- No location access (ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION)
-- No camera or microphone access
-- No file system access (READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE)
-- No phone state access (READ_PHONE_STATE)
-- No advertising ID access (ACCESS_ADSERVICES_*)
+For your privacy protection, we have deliberately removed these permissions using `tools:node="remove"`:
+- **ACCESS_WIFI_STATE:** Removed for privacy
+- **WAKE_LOCK:** Removed to prevent battery drain
+- **FOREGROUND_SERVICE:** Not needed for current functionality
+- **ACCESS_ADSERVICES_ATTRIBUTION:** Privacy-focused removal
+- **ACCESS_ADSERVICES_AD_ID:** Privacy-focused removal
+- **READ_GSERVICES:** Not required for core functionality
+- **READ_PHONE_STATE:** Privacy protection
+- **READ_EXTERNAL_STORAGE:** No file access needed
+- **WRITE_EXTERNAL_STORAGE:** No file writing needed
+- **SCHEDULE_EXACT_ALARM:** Not required for notifications
+- **ACCESS_NOTIFICATION_POLICY:** Removed for privacy
+
+### Privacy-First Permission Design:
+Our permission model follows the principle of data minimization, requesting only essential permissions for core functionality while explicitly removing permissions that could access sensitive device data.
+
+## Medical Disclaimers for Teen Users
+
+**Enhanced Medical Disclaimers for Users Under 18:**
+
+### Reproductive Health Education
+- **Educational Purpose Only:** Information provided is for educational purposes and personal health tracking
+- **Not Medical Advice:** App content should not replace professional medical consultation
+- **Parental Guidance Recommended:** Teen users should discuss reproductive health with parents and healthcare providers
+- **No Diagnosis:** App does not diagnose medical conditions or provide medical treatment recommendations
+
+### Fertility and Contraception Warnings
+- **Not Contraception:** Fertility tracking features should NEVER be used as primary contraception method for teens
+- **Medical Supervision Required:** Any fertility-related questions should be addressed with healthcare providers
+- **Educational Context:** Fertility information provided for health education, not pregnancy planning for minors
+
+### Teen-Specific Health Guidance
+- **Healthcare Provider Consultation:** Regular check-ups with healthcare providers are essential for reproductive health
+- **Parental Communication:** Open communication with parents/guardians about menstrual health is encouraged
+- **Age-Appropriate Use:** Features should be used age-appropriately with adult guidance when needed
 
 ## Age Restrictions and Usage Requirements
 
-Periodia is designed for women of reproductive age and requires maturity in understanding reproductive health information.
+**Updated for Teen (12+) Rating Compliance:**
 
-### Age Requirements:
-- **Minimum age:** 17 years old for independent use
-- **Ages 13-16:** Require parental/guardian consent and supervision
+### Age Categories and Recommendations:
+- **Ages 12-13:** Parental supervision strongly recommended; basic cycle tracking only
+- **Ages 14-17:** Parental guidance encouraged; educational content with adult discussion
+- **Ages 18+:** Full app functionality; primary target demographic for all features
+- **Under 12:** Not recommended; COPPA protections apply if detected
+
+### Content Appropriateness:
+- **Educational Focus:** All content designed for health education with age-appropriate language
+- **Medical Accuracy:** Information scientifically accurate and reviewed for teen comprehension
+- **No Explicit Content:** Content focuses on health education without explicit material
 - **Under 13:** We do not knowingly collect data from children under 13
 
 If you are under 18, ensure your parent/guardian understands the type of data collected and how this application is used.
@@ -220,21 +343,44 @@ This policy complies with:
 - **Indonesia Personal Data Protection Law (UU PDP)** No. 27/2022
 - **European General Data Protection Regulation (GDPR)**
 - **California Consumer Privacy Act (CCPA)**
-- **Google Play Store policies for health applications**
-- **International standards for sensitive health data**
+- **Children's Online Privacy Protection Act (COPPA) - 2025 Rule Amendments**
+- **Google Play Store policies for health applications (2025 updates)**
+- **Google Play Teen (12+) rating requirements**
+- **Google Play Target API Level 35 requirements**
+- **Google Play Data Safety declaration requirements**
+- **Google Play Families Policy compliance for mixed audience apps**
+- **International standards for sensitive health data (ISO 27001/27799)**
+- **Android 15 privacy enhancements compliance**
 
 ## Google Play Store Compliance
 
 Periodia is designed to meet Google Play Store requirements for health and medical applications:
 
-### Compliance Features:
-- ✅ **Transparent data collection** disclosure
-- ✅ **Comprehensive medical disclaimers**
-- ✅ **No medical diagnosis claims**
-- ✅ **Enterprise-grade data security**
-- ✅ **Complete user data control**
-- ✅ **Appropriate age restrictions** for reproductive health content
+### 2025 Policy Compliance Features:
+- ✅ **Transparent data collection** disclosure in Data Safety section
+- ✅ **Comprehensive medical disclaimers** with user and parental acknowledgment
+- ✅ **No medical diagnosis claims** - statistical tracking and education only
+- ✅ **Enterprise-grade data security** with Android 15 enhancements
+- ✅ **Complete user data control** with local-only storage
+- ✅ **Teen (12+) rating compliance** with appropriate content and parental guidance
+- ✅ **COPPA compliance** with enhanced protections for under-13 users
 - ✅ **Privacy-first design** with minimal permissions
+- ✅ **Target API Level 35** for Android 15 compatibility
+- ✅ **Explicit analytics consent** with easy opt-out
+- ✅ **Content rating accuracy** (Teen 12+ with educational reproductive health content)
+- ✅ **Health data protection** following sensitive data guidelines
+- ✅ **Ad content appropriateness** matching Teen rating requirements
+- ✅ **Mixed audience app compliance** with age-appropriate safeguards
+
+### Data Safety Declaration Compliance:
+Our Google Play Data Safety section accurately declares:
+- Types of data collected (health, account, technical, advertising)
+- Data sharing practices (no health data sharing, limited third-party sharing)
+- Security practices (encryption, local storage, enhanced protection for minors)
+- Data retention policies (user-controlled, parental control for under-18)
+- Optional data collection (analytics with consent, parental consent for minors)
+- Age-appropriate data handling (COPPA compliance, teen safety measures)
+- Content rating disclosure (Teen 12+ with reproductive health education)
 
 ## Offline Mode and Local Storage
 
@@ -286,6 +432,38 @@ For questions about this Privacy Policy or our privacy practices:
 
 *This privacy policy is designed to be comprehensive and transparent. We are committed to protecting your sensitive health data and will continue to update our practices to reflect the highest standards of data protection and medical app ethics.*
 
-**Version:** 2.0  
-**Document ID:** PERIODIA-PP-2025-001  
-**Review Cycle:** Annual or as required by law
+**Version:** 3.0  
+**Document ID:** PERIODIA-PP-2025-002  
+**Review Cycle:** Annual or as required by law  
+**Google Play Compliance Status:** ✅ Updated for 2025 requirements  
+**Last Reviewed:** August 17, 2025
+
+---
+
+## Data Collection Summary for Google Play Data Safety
+
+### Data We Collect:
+- **Health and Fitness:** Menstrual cycle data, symptoms, moods (stored locally only)
+- **Personal Info:** Email address, name, profile photo (via Google Sign-In)
+- **App Activity:** App interactions, preferences, analytics (optional with consent)
+- **Device Info:** Device model, OS version, app version
+- **App Performance:** Crash logs, error reports
+- **Advertising:** Google Advertising ID, ad interactions, ad preferences (for monetization)
+
+### Data We DON'T Collect:
+- **Location Data:** No precise or approximate location tracking
+- **Photos and Videos:** No access to device media
+- **Audio Files:** No microphone or audio access
+- **Calendar and Contacts:** No access to personal information
+- **SMS or Call Logs:** No communication data access
+
+### Data Sharing:
+- **Health Data:** Never shared with anyone - stays locally on device
+- **Analytics Data:** Only anonymized usage patterns (if consented) with Google Firebase
+- **Advertising Data:** Shared with Google AdMob for ad delivery and revenue tracking
+- **No Third-Party Sharing:** Except required Google services for app functionality (authentication, analytics, advertising)
+
+### Security:
+- **Local Storage:** Health data stays on device
+- **Encryption:** All data encrypted in transit and at rest
+- **User Control:** Complete data control and deletion rights
