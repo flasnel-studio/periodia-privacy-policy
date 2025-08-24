@@ -5,7 +5,6 @@
 **Policy Version:** 3.1  
 **Document ID:** PERIODIA-PP-2025-003  
 **Content Rating:** Teen (12+) - Mixed Audience App  
-**COPPA Compliance Status:** ✅ Updated for 2025 COPPA Rule Amendments
 
 ## Introduction
 
@@ -19,7 +18,6 @@ Periodia ("we," "our," or "us") is committed to protecting your privacy. This Pr
 - **Minimum Age:** This app is rated Teen (12+) but recommended for ages 13+ due to reproductive health content
 - **Target Audience:** Primarily designed for individuals 18+ who menstruate
 - **Parental Guidance Required:** Users under 18 should use this app with parental guidance and supervision
-- **Under 13 Users:** Per COPPA requirements, we do not knowingly collect personal information from children under 13 without verified parental consent
 
 **For Parents and Guardians:**
 If your child is under 18 and uses this app, we recommend:
@@ -77,41 +75,6 @@ Periodia provides the following services:
 
 **Important:** We use Google AdMob with production advertising ID to display relevant ads. All advertising data is handled according to Google's advertising policies and does not include your sensitive health information.
 
-## COPPA Compliance (Children Under 13)
-
-**Enhanced Protection for Children Under 13:**
-
-In compliance with the Children's Online Privacy Protection Act (COPPA) and the 2025 Rule Amendments:
-
-### Data Collection from Children Under 13
-- **No Intentional Collection:** We do not intentionally collect personal information from children under 13
-- **Age Verification:** Users must confirm they are 13+ during registration
-- **Parental Consent Required:** If we discover a user under 13, we require verified parental consent before data collection
-
-### Parental Rights and Controls
-If your child under 13 is using this app, parents have the right to:
-- **Review:** Request to see what personal information we have collected
-- **Delete:** Request deletion of your child's personal information
-- **Refuse Further Collection:** Refuse to allow further collection of your child's information
-- **Consent Options:** Choose to consent to collection/use without consenting to disclosure to third parties
-
-### Third-Party Data Sharing (Under 13 Users)
-Per 2025 COPPA amendments, we provide parents the option to:
-- Consent to collection and use of child's information for app functionality
-- Separately consent (or refuse) to disclosure to third parties
-- Understand which categories of third parties may receive information
-
-### Contact for Parental Requests
-For any COPPA-related requests regarding children under 13:
-- **Email:** flasnelstudio@gmail.com
-- **Subject:** "COPPA Parental Request - [Child's Username]"
-- **Required:** Verification of parental identity
-- **Response Time:** Within 30 days of verified request
-
-### Data Retention for Children Under 13
-- We retain children's personal information only as long as necessary for the purpose for which it was collected
-- Parents can request deletion at any time
-- We implement enhanced security measures for any data from users under 13
 
 ## Third-Party Services Integration
 
@@ -120,9 +83,7 @@ Periodia integrates with Google/Firebase services to provide core functionality.
 ### Google Firebase Suite:
 - **Firebase Authentication:** User authentication via Google Sign-In
 - **Local SQLite Storage:** Secure local storage for all your menstrual cycle data (no cloud upload)
-- **Firebase Analytics:** App usage analysis (explicit consent required during onboarding, can be disabled anytime)
 - **Firebase Cloud Messaging:** Period and fertility notification delivery
-- **Firebase Remote Config:** Feature configuration and app settings
 
 ### Google Services:
 - **Google Sign-In:** Secure authentication using your Google account
@@ -133,7 +94,6 @@ Periodia integrates with Google/Firebase services to provide core functionality.
 Your sensitive health data remains exclusively on your device. However, the following data may be processed by Google services:
 - Authentication tokens (Google Sign-In)
 - Push notification tokens (Firebase Cloud Messaging)
-- Anonymous analytics data (only if consented, Firebase Analytics)
 - Advertisement data (Google AdMob production environment)
 
 **CRITICAL:** Your personal menstrual cycle data, symptoms, moods, and health information are stored ONLY on your device using SQLite database with Android secure storage. This data is never uploaded to any cloud servers or shared with third parties.
@@ -162,29 +122,8 @@ Your sensitive health data remains exclusively on your device. However, the foll
 - Support sustainable app development and maintenance
 
 **User Control:** 
-- **Analytics:** During onboarding, you will be asked for explicit consent to enable analytics. You can change this preference anytime in **Profile → Tampilan & Privasi → Analytics & Peningkatan App** to stop usage data collection.
 - **Advertising:** Ads are displayed to support the free app. You can reset your advertising ID in device settings to limit ad personalization.
 
-## Analytics Collection and Consent
-
-### Explicit Consent Process:
-During your first use of Periodia, after accepting the medical disclaimer, you will be presented with an **Analytics Consent Modal** that clearly explains:
-
-- **What data we collect:** App usage patterns, feature interactions, device information, crash reports
-- **What we DON'T collect:** Your health data, personal information, location, or any sensitive content
-- **Purpose:** Improving app performance, fixing bugs, and developing features you need
-- **Your choice:** You can choose "Ya, Bantu Tingkatkan" (enable) or "Tidak, Terima Kasih" (disable)
-
-### Ongoing Control:
-- **Settings Location:** Profile → Tampilan & Privasi → Analytics & Peningkatan App
-- **Immediate Effect:** Changes apply instantly when you toggle the setting
-- **No Penalty:** Declining analytics does not affect any app functionality
-- **Transparency:** Clear description of what analytics helps us achieve
-
-### Default Behavior:
-- **New Users:** Must explicitly choose during onboarding
-- **No Pre-selection:** Neither option is pre-selected; active choice required
-- **Respect Choice:** Your preference is permanently stored and respected
 
 ## Data Storage and Security
 
@@ -261,13 +200,12 @@ Our permission model follows the principle of data minimization, requesting only
 - **Ages 12-13:** Parental supervision strongly recommended; basic cycle tracking only
 - **Ages 14-17:** Parental guidance encouraged; educational content with adult discussion
 - **Ages 18+:** Full app functionality; primary target demographic for all features
-- **Under 12:** Not recommended; COPPA protections apply if detected
+- **Under 12:** Not recommended due to mature content
 
 ### Content Appropriateness:
 - **Educational Focus:** All content designed for health education with age-appropriate language
 - **Medical Accuracy:** Information scientifically accurate and reviewed for teen comprehension
 - **No Explicit Content:** Content focuses on health education without explicit material
-- **Under 13:** We do not knowingly collect data from children under 13
 
 If you are under 18, ensure your parent/guardian understands the type of data collected and how this application is used.
 
@@ -301,13 +239,12 @@ Users must read and accept medical disclaimers before using features like:
 ### Data Access and Control:
 - **View Your Data:** Access all collected information through the app
 - **Correct Inaccuracies:** Edit or update incorrect data entries
-- **Export Your Data:** Generate reports for healthcare providers
+- **Generate Reports:** Create cycle reports for healthcare providers (via Report screen)
 - **Delete Individual Entries:** Remove specific cycle entries
-- **Delete Entire Account:** Complete data removal from our systems
+- **Delete Entire Account:** Remove account and authentication data (local cycle data remains on device)
 
 ### Communication Preferences:
 - **Notification Control:** Manage period and fertility alerts
-- **Analytics Control:** Enable/disable analytics in Profile → Tampilan & Privasi → Analytics & Peningkatan App
 - **Email Communications:** We only send essential account-related emails
 
 ### Data Deletion Process:
@@ -321,36 +258,30 @@ To request account and data deletion:
 
 - **Active Account Data:** Retained while your account is active
 - **Deleted Account Data:** Permanently deleted within 30 days of account deletion
-- **Analytics Data:** Retained according to Firebase Analytics policies (2-14 months)
 - **Local Data:** Persists until app uninstall or manual deletion
 - **Backup Data:** Removed from all backup systems within 90 days
 
 ## International Data Transfers
 
 Your **health data remains on your device** and is not transferred internationally. However, the following data may be processed outside Indonesia:
-- Analytics data (only if you consent to analytics)
 - Authentication data through Google Sign-In
 - Push notification tokens for Firebase Cloud Messaging
 
 We ensure adequate protection is applied to any transferred data through:
 - Google's global security standards
 - Encryption in transit and at rest
-- Compliance with international data protection laws
+- Industry-standard data protection practices
 
 ## Legal Compliance
 
 This policy complies with:
-- **Indonesia Personal Data Protection Law (UU PDP)** No. 27/2022
-- **European General Data Protection Regulation (GDPR)**
-- **California Consumer Privacy Act (CCPA)**
-- **Children's Online Privacy Protection Act (COPPA) - 2025 Rule Amendments**
-- **Google Play Store policies for health applications (2025 updates)**
+- **Google Play Store policies for health applications**
 - **Google Play Teen (12+) rating requirements**
 - **Google Play Target API Level 35 requirements**
 - **Google Play Data Safety declaration requirements**
-- **Google Play Families Policy compliance for mixed audience apps**
-- **International standards for sensitive health data (ISO 27001/27799)**
-- **Android 15 privacy enhancements compliance**
+- **Android privacy and security requirements**
+
+We implement data protection best practices and respect user privacy rights.
 
 ## Google Play Store Compliance
 
@@ -363,10 +294,8 @@ Periodia is designed to meet Google Play Store requirements for health and medic
 - ✅ **Enterprise-grade data security** with Android 15 enhancements
 - ✅ **Complete user data control** with local-only storage
 - ✅ **Teen (12+) rating compliance** with appropriate content and parental guidance
-- ✅ **COPPA compliance** with enhanced protections for under-13 users
 - ✅ **Privacy-first design** with minimal permissions
 - ✅ **Target API Level 35** for Android 15 compatibility
-- ✅ **Explicit analytics consent** with easy opt-out
 - ✅ **Content rating accuracy** (Teen 12+ with educational reproductive health content)
 - ✅ **Health data protection** following sensitive data guidelines
 - ✅ **Ad content appropriateness** matching Teen rating requirements
@@ -376,10 +305,9 @@ Periodia is designed to meet Google Play Store requirements for health and medic
 Our Google Play Data Safety section accurately declares:
 - Types of data collected (health, account, technical, advertising)
 - Data sharing practices (no health data sharing, limited third-party sharing)
-- Security practices (encryption, local storage, enhanced protection for minors)
-- Data retention policies (user-controlled, parental control for under-18)
-- Optional data collection (analytics with consent, parental consent for minors)
-- Age-appropriate data handling (COPPA compliance, teen safety measures)
+- Security practices (encryption, local storage)
+- Data retention policies (user-controlled)
+- Age-appropriate data handling with teen safety measures
 - Content rating disclosure (Teen 12+ with reproductive health education)
 
 ## Offline Mode and Local Storage
@@ -445,7 +373,7 @@ For questions about this Privacy Policy or our privacy practices:
 ### Data We Collect:
 - **Health and Fitness:** Menstrual cycle data, symptoms, moods (stored locally only)
 - **Personal Info:** Email address, name, profile photo (via Google Sign-In)
-- **App Activity:** App interactions, preferences, analytics (optional with consent)
+- **App Activity:** App interactions, preferences
 - **Device Info:** Device model, OS version, app version
 - **App Performance:** Crash logs, error reports
 - **Advertising:** Google Advertising ID, ad interactions, ad preferences (for monetization)
@@ -459,9 +387,8 @@ For questions about this Privacy Policy or our privacy practices:
 
 ### Data Sharing:
 - **Health Data:** Never shared with anyone - stays locally on device
-- **Analytics Data:** Only anonymized usage patterns (if consented) with Google Firebase
 - **Advertising Data:** Shared with Google AdMob for ad delivery and revenue tracking
-- **No Third-Party Sharing:** Except required Google services for app functionality (authentication, analytics, advertising)
+- **No Third-Party Sharing:** Except required Google services for app functionality (authentication, advertising)
 
 ### Security:
 - **Local Storage:** Health data stays on device
