@@ -1,7 +1,7 @@
 # Privacy Policy for Periodia
 
-**Last Updated:** August 17, 2025  
-**Effective Date:** August 17, 2025  
+**Last Updated:** August 25, 2025  
+**Effective Date:** August 25, 2025  
 **Policy Version:** 3.1  
 **Document ID:** PERIODIA-PP-2025-003  
 **Content Rating:** Teen (12+) - Mixed Audience App  
@@ -59,7 +59,7 @@ Periodia provides the following services:
 ### 3. TECHNICAL AND USAGE DATA
 
 - **Device Information:** Device model, operating system version, app version, device ID (anonymized)
-- **App Analytics:** Pages visited, time spent, feature usage, button clicks (can be disabled in Profile settings)
+- **App Performance:** Basic crash reports and error logs (essential for app functionality)
 - **Push Notification Tokens:** For period and fertility notifications delivery
 - **Error Logs and Crash Reports:** Stack traces, error messages for app improvement and stability
 - **Activity Timestamps:** Last login, last data update, session duration
@@ -82,8 +82,8 @@ Periodia integrates with Google/Firebase services to provide core functionality.
 
 ### Google Firebase Suite:
 - **Firebase Authentication:** User authentication via Google Sign-In
-- **Local SQLite Storage:** Secure local storage for all your menstrual cycle data (no cloud upload)
 - **Firebase Cloud Messaging:** Period and fertility notification delivery
+- **Local SQLite Storage:** Secure local storage for all your menstrual cycle data (no cloud upload)
 
 ### Google Services:
 - **Google Sign-In:** Secure authentication using your Google account
@@ -108,10 +108,9 @@ Your sensitive health data remains exclusively on your device. However, the foll
 - Send period reminders and fertility notifications
 - Create insights and trends from your personal data
 
-### Analytics and Improvement:
-- Monitor app performance and identify bugs
-- Understand how users interact with features
-- Improve user experience and app functionality
+### App Performance and Improvement:
+- Monitor app crashes and identify critical bugs
+- Maintain app stability and performance
 - Detect and prevent security threats
 
 ### Advertising and Monetization:
@@ -141,7 +140,7 @@ Your sensitive health data remains exclusively on your device. However, the foll
 ### Security Measures:
 - Google OAuth 2.0 authentication
 - Data encryption in transit and at rest
-- Firebase enterprise-grade security infrastructure
+- Android secure storage mechanisms
 - Regular security monitoring and updates
 
 ## App Permissions
@@ -364,7 +363,7 @@ For questions about this Privacy Policy or our privacy practices:
 **Document ID:** PERIODIA-PP-2025-002  
 **Review Cycle:** Annual or as required by law  
 **Google Play Compliance Status:** ✅ Updated for 2025 requirements  
-**Last Reviewed:** August 17, 2025
+**Last Reviewed:** August 25, 2025
 
 ---
 
