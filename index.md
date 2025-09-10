@@ -10,7 +10,7 @@
 
 Periodia ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our menstrual cycle tracking and reproductive health mobile application (the "App").
 
-**Important:** Periodia is a menstrual cycle tracking application that helps individuals understand their cycle patterns, predict periods and fertility windows, and analyze their reproductive health data. This application is **NOT a medical device** and should not be used for diagnostic purposes or as a substitute for professional medical consultation.
+**Important:** Periodia is a menstrual cycle tracking application that helps individuals understand their cycle patterns, predict periods and fertility windows, and analyze their reproductive health data. This application is **NOT a medical device** and should not be used for medical assessment purposes or as a substitute for professional medical consultation.
 
 ## Age Restrictions and Parental Guidance
 
@@ -31,7 +31,7 @@ If your child is under 18 and uses this app, we recommend:
 
 Periodia provides the following services:
 - **Menstrual Cycle Tracking:** Log periods, flow levels, symptoms, and moods
-- **Fertility Planning:** Ovulation prediction and fertility window calculations (algorithm-based, not medical diagnosis)
+- **Fertility Planning:** Ovulation prediction and fertility window calculations (algorithm-based, not medical assessment)
 - **Health Insights:** Data analytics, trends, and cycle pattern analysis
 - **Calendar Integration:** Visual cycle tracking and predictions
 - **Notifications:** Period reminders and fertility alerts
@@ -47,7 +47,7 @@ Periodia provides the following services:
 - **Physical Symptoms:** Cramps, headaches, bloating, fatigue, breast pain, acne
 - **Emotional State and Mood:** Happy, sad, angry, tired, anxious, content (emoji-based tracking)
 - **Personal Health Notes:** Free-text health observations you add
-- **Fertility Predictions:** Ovulation and fertile window estimates (algorithm-based, not medical diagnosis)
+- **Fertility Predictions:** Ovulation and fertile window estimates (algorithm-based, not medical assessment)
 
 ### 2. ACCOUNT INFORMATION (via Google Sign-In Only)
 
@@ -104,7 +104,7 @@ Your sensitive health data remains exclusively on your device. However, the foll
 
 ### Core App Functions:
 - Provide menstrual cycle tracking and analysis features
-- Generate period and fertility predictions (statistical algorithms, not medical diagnosis)
+- Generate period and fertility predictions (statistical algorithms, not medical assessment)
 - Send period reminders and fertility notifications
 - Create insights and trends from your personal data
 
@@ -179,7 +179,7 @@ Our permission model follows the principle of data minimization, requesting only
 - **Educational Purpose Only:** Information provided is for educational purposes and personal health tracking
 - **Not Medical Advice:** App content should not replace professional medical consultation
 - **Parental Guidance Recommended:** Teen users should discuss reproductive health with parents and healthcare providers
-- **No Diagnosis:** App does not diagnose medical conditions or provide medical treatment recommendations
+- **No Medical Assessment:** App does not assess medical conditions or provide medical treatment recommendations
 
 ### Fertility and Contraception Warnings
 - **Not Contraception:** Fertility tracking features should NEVER be used as primary contraception method for teens
@@ -213,10 +213,10 @@ If you are under 18, ensure your parent/guardian understands the type of data co
 **CRITICAL HEALTH INFORMATION:** Periodia provides a comprehensive medical disclaimer system to protect users:
 
 ### What This App IS NOT:
-- ❌ **NOT a medical device** - Does not provide medical diagnosis
+- ❌ **NOT a medical device** - Does not provide medical assessment
 - ❌ **NOT for contraception** - Should not be used as primary or sole birth control method
 - ❌ **NOT medical advice** - Cannot replace professional healthcare consultation
-- ❌ **NOT guaranteed accuracy** - Predictions are statistical estimates, not medical diagnosis
+- ❌ **NOT guaranteed accuracy** - Predictions are statistical estimates, not medical assessment
 
 ### What This App IS:
 - ✅ **Personal tracking tool** for menstrual cycle awareness
@@ -289,7 +289,7 @@ Periodia is designed to meet Google Play Store requirements for health and medic
 ### 2025 Policy Compliance Features:
 - ✅ **Transparent data collection** disclosure in Data Safety section
 - ✅ **Comprehensive medical disclaimers** with user and parental acknowledgment
-- ✅ **No medical diagnosis claims** - statistical tracking and education only
+- ✅ **No medical assessment claims** - statistical tracking and education only
 - ✅ **Enterprise-grade data security** with Android 15 enhancements
 - ✅ **Complete user data control** with local-only storage
 - ✅ **Teen (12+) rating compliance** with appropriate content and parental guidance
